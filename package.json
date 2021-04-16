@@ -1,5 +1,6 @@
 {
   "homepage": "http://toufikabyle.github.io/myfirstreactapp",
+  "name":"myreactnative",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "predeploy": "npm run build",
