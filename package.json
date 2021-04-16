@@ -1,5 +1,5 @@
 {
-  "homepage": "http://toufikabyle.github.io/myfirstreactapp",
+  "homepage": "http://toufikabyle.github.io/myreactnative",
   "name": "myreactnative",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
