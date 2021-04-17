@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/myreactnative/static/js/app.f530634b.chunk.js",
-    "app.js.map": "/myreactnative/static/js/app.f530634b.chunk.js.map",
-    "runtime~app.js": "/myreactnative/static/js/runtime~app.af9806b6.js",
-    "runtime~app.js.map": "/myreactnative/static/js/runtime~app.af9806b6.js.map",
-    "static/js/2.c5d24227.chunk.js": "/myreactnative/static/js/2.c5d24227.chunk.js",
-    "static/js/2.c5d24227.chunk.js.map": "/myreactnative/static/js/2.c5d24227.chunk.js.map",
-    "favicon-16.png": "/myreactnative/favicon-16.png",
-    "favicon-32.png": "/myreactnative/favicon-32.png",
-    "favicon.ico": "/myreactnative/favicon.ico",
-    "index.html": "/myreactnative/index.html",
-    "manifest.json": "/myreactnative/manifest.json",
-    "serve.json": "/myreactnative/serve.json",
-    "static/js/2.c5d24227.chunk.js.LICENSE.txt": "/myreactnative/static/js/2.c5d24227.chunk.js.LICENSE.txt"
+    "app.js": "/reactnativeapp/static/js/app.51a1d0d5.chunk.js",
+    "app.js.map": "/reactnativeapp/static/js/app.51a1d0d5.chunk.js.map",
+    "runtime~app.js": "/reactnativeapp/static/js/runtime~app.ac9cba3a.js",
+    "runtime~app.js.map": "/reactnativeapp/static/js/runtime~app.ac9cba3a.js.map",
+    "static/js/2.3941a4ee.chunk.js": "/reactnativeapp/static/js/2.3941a4ee.chunk.js",
+    "static/js/2.3941a4ee.chunk.js.map": "/reactnativeapp/static/js/2.3941a4ee.chunk.js.map",
+    "favicon-16.png": "/reactnativeapp/favicon-16.png",
+    "favicon-32.png": "/reactnativeapp/favicon-32.png",
+    "favicon.ico": "/reactnativeapp/favicon.ico",
+    "index.html": "/reactnativeapp/index.html",
+    "manifest.json": "/reactnativeapp/manifest.json",
+    "serve.json": "/reactnativeapp/serve.json",
+    "static/js/2.3941a4ee.chunk.js.LICENSE.txt": "/reactnativeapp/static/js/2.3941a4ee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime~app.af9806b6.js",
-    "static/js/2.c5d24227.chunk.js",
-    "static/js/app.f530634b.chunk.js"
+    "static/js/runtime~app.ac9cba3a.js",
+    "static/js/2.3941a4ee.chunk.js",
+    "static/js/app.51a1d0d5.chunk.js"
   ]
 }
