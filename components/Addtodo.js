@@ -22,8 +22,8 @@ const Addtodo = ({ addTodo }) => {
   return (
     <TouchableOpacity style={styles.container}>
       <TextInput
-        placeholder="Todos"
-        placeholderTextColor="black"
+        placeholder="tape here ..."
+        placeholderTextColor="#69bdd2"
         style={styles.input}
         onChangeText={(title) => setTitle(title)}
         value={title}
@@ -41,11 +41,12 @@ export default Addtodo;
 const styles = StyleSheet.create({
   input: {
     marginHorizontal: 0,
-    borderWidth: 3,
-    fontSize: 28,
+    borderWidth: 4,
+    borderColor:"#063970",
+    fontSize: 20,
     paddingStart: 8,
     backgroundColor: "white",
-    flex: 1,
+    flex: 0.8,
     height: 50,
   },
   container: {
@@ -55,13 +56,17 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "white",
     fontSize: 20,
+    borderColor: '#fff'
   },
   center: {
     width: "30%",
     backgroundColor: "#2596be",
-    borderWidth: 3,
+    borderWidth: 4,
+    
+    borderColor:"#063970",
     height: 50,
-    flex: 0.3,
+    flex: 0.2,
     justifyContent: "center",
+    
   },
 });

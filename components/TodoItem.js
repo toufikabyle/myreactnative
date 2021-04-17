@@ -31,15 +31,20 @@ const TodoItem = (props) => {
           onPress={props.delTodo.bind(this, props.todo.id)}
           id={props.todo.id}
           style={{
-            backgroundColor: "white",
-            flex: 0.1,
+            
+            flex: 0.2,
             alignItems: "center",
             justifyContent: "center",
-            borderRadius: 10,
-            paddingHorizontal:20,
+            borderRadius: 8,
+            borderWidth: 2,
+            borderColor:"red",
+            paddingHorizontal:8,
+            marginTop:7,
+            
+            
           }}
         >
-          <Text style={{ fontSize: 24, color: "#fff" }}>♻</Text>
+          <Text style={{ fontSize: 15, color: "red",textShadowColor: 'red', textShadowRadius: 2,textShadowOffset: {width: 1, height: 1}, }}>Delete</Text>
         </TouchableOpacity>
         
         
@@ -60,32 +65,35 @@ const styles = StyleSheet.create({
   },
   container: {
     justifyContent: "center",
-    width: "96%",
-    marginLeft: 5,
-    backgroundColor: "#f4f4f4",
+    width: "98.5%",
+    marginLeft: 3,
     padding: 0,
-    borderColor: "red",
+    borderColor: "#063970",
     borderWidth: 1.5,
-    borderStyle: "dotted",
+    borderStyle: "solid",
+    marginTop:4,
   },
   checkboxContainer: {
     flexDirection: "row",
     marginBottom: 10,
-    marginTop: 10,
+    marginTop: 0,
   },
   checkbox: {
-    flex: 0.13,
-    color: "red",
-    marginLeft: 0,
+    
+    
+    marginLeft: 15,
+    marginTop:5,
   },
   label: {
-    margin: 8,
+    marginLeft: 5,
+    marginTop:11,
     flex: 0.75,
     color:"red",
     paddingLeft: 10,
   },
   label2: {
-    margin: 5,
+    marginLeft: 5,
+    marginTop:11,
     flex: 0.75,
     textDecorationLine: "none",
     paddingLeft: 10,

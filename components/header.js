@@ -14,15 +14,18 @@ export default Header;
 
 const styles = StyleSheet.create({
   container2: {
-    backgroundColor: "#333",
-    paddingTop: 20,
+    backgroundColor: "#063970",
+    paddingTop: 40,
     paddingBottom: 10,
     width: "100%",
     justifyContent: "center",
   },
   text: {
+    textShadowColor: 'white',
+    textShadowOffset: {width: 2, height: 2},
+  textShadowRadius: 20,
     fontSize: 50,
-    color: "white",
+    color: "#063970",
     textAlign: "center",
   },
   text2: {
